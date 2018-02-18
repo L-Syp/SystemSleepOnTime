@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RunCodeAtTime\RunCodeAtTime\RunCodeAtTime.csproj">
+      <Project>{e3de8711-1d80-4575-b6c1-bf8fd29b3a8c}</Project>
+      <Name>RunCodeAtTime</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
